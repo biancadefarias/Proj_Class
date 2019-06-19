@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Enquete - PW1</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+	body{
+		background: #F5DEB3;
+	}
+	fieldset{
+		color: #696969;
+		border-radius: 10%;
+	}
+	.enviar{
+		background: #CD835F;
+		color: #696969;
+	}
+</style>
+</head>
+<body>
+
+<form name="votacao" action="enquete.php" method="POST">
+	<center><fieldset style="width: 400px"><legend><h4>Enquete</h4></legend>
+
+<label for="pergunta">Qual é a melhor forma de procurar estágio?</label></br>
+<input type="radio" name="voto" value="r1"/>Diretamente nas empresas(local ou site).</br>
+<input type="radio" name="voto" value="r2"/>Atráves de eventos e sites de recrutamento e/ou voltados a universitários.</br>
+<input type="radio" name="voto" value="r3"/>Procurar a Central de Estágio da faculdade.</br>
+<input type="radio" name="voto" value="r4"/>Indicação de amigos.</br>
+<input type="radio" name="voto" value="r5"/>Criar um site com seu próprio currículo, para ampliar a divulgação de seus objetivos profissionais.</br>
+<input class="enviar" type="submit" name="enviar" value="Enviar voto"/>
+</fieldset>
+</center>
+</form>
+</body>
+</html>

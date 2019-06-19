@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Loja</title>
+	<style type="text/css">
+	body{
+		background:#E6E6FA;
+	}
+	.a{
+		background: #FF69B4;
+		width: 100%;
+		height: 150px;
+	}
+	#img{
+		width: 490px;
+		height: 190px;
+		top: 50px;
+	}
+	.b{
+       position: absolute;
+       top: 50px;
+       left: 500px;
+	}	
+	.c{
+		position: absolute;
+		top: 100px;
+		left: 500px;
+	}
+	.d{
+		position: absolute;
+		background: #FF69B4;
+		width: 350px;
+		height: 100px;
+	}
+	.e{
+		top: 15px;
+	}
+	fieldset{
+		position: absolute;
+		width: 350px;
+		height: 700px;
+	}	
+	#img2{
+		position: relative;
+		top: 35px;
+		width: 350px;
+		height: 300px;
+	}	
+	.f{
+		position: relative;
+		top: 10px;
+	}
+	.j{
+		position: absolute;
+		top: 170px;
+		left: 455px;
+	}
+	.k{
+		position: absolute;
+		top: 210px;
+		left: 455px;
+	}
+	.l{
+		position: absolute;
+		top: 250px;
+		left: 455px;
+	}
+	.m{
+		position: absolute;
+		top: 265px;
+		left: 455px;
+	}
+	.n{
+		position: absolute;
+		top: 300px;
+		left: 455px;
+	}
+	.o{
+		position: absolute;
+		top: 315px;
+		left: 455px;
+	}
+	.p{
+		position: absolute;
+		top: 350px;
+		left: 455px;
+	}
+	.r{
+		position: absolute;
+		top: 379px;
+		left: 450px;
+	}
+	.s{
+		position: absolute;
+		top: 364px;
+		left: 468px;
+	}
+	.t{
+		position: absolute;
+		top: 170px;
+		left: 815px;
+	}
+	.u{
+		position: absolute;
+		top: 210px;
+		left: 815px;
+	}
+	.v{
+		position: absolute;
+		top: 250px;
+		left: 815px;
+	}
+	.w{
+		position: absolute;
+		top: 278px;
+		left: 815px; 	
+	}
+	.x{
+		position: absolute;
+		top: 286px;
+		left: 815px;
+	}
+	.y{
+		position: absolute;
+		top: 320px;
+		left: 815px;
+	}
+	.z{
+		position: absolute;
+		top: 365px;
+		left: 815px;
+		border-radius: 10%;
+		background:	#DDA0DD;
+		height: 35px;
+		width: 165px;
+	}
+	.aa{
+		position: absolute;
+		top: 368px;
+		left: 820px;
+		height: 30px;
+		width: 30px;
+	}
+	</style>
+
+
+</head>
+<body>
+	<div class="a"><img src="http://www.millennium.com.br/wp-content/uploads/2018/01/badcat.png" id="img"><h1 class="b">Ótima escolha!</h1><h3 class="c">Obrigado por comprar na Badcat! Preencha seus dados para efetivar a compra</h3></div>
+
+	<br>
+    <fieldset>
+	<div class="d">
+		<center><h1 class="e">Sua compra</h1></center>
+		<img src="https://static.cdnlive.com.br/uploads/579/unidade/15595982864362_zoom.jpg" id="img2">
+		<h3 class="f">Produto</h3>
+		<p id="f">Blusa Neoprene</p>
+		<h3 class="g">Cor</h3>
+		<p id="g">Estampado</p>
+		<h3 class="h">Tamanho</h3>
+		<p id="h">M</p>
+		<h3 class="i">Preço</h3>
+		<p id="i">R$ 59,00</p>
+	</div>
+   </fieldset>
+   
+
+   <h2 class="j">Dados Pessoais</h2>
+   <form action="confirmacao.php" method="POST">
+        <p class="k">Nome completo</p>
+        <input type="text" name="name" class="l" size="40">
+        <p class="m">E-Mail</p>
+        <input type="text" name="email" class="n" size="40">
+        <p class="o">CPF</p>
+        <input type="text" name="cpf" class="p" size="40" maxlength="10">
+        <input type="checkbox" class="r"><p class="s">Quero receber Newsletter da Badcat</p>
+
+
+   <div>
+   	<h2 class="t">Cartão de crédito</h2>
+   		<p class="u">Número - CVV</p>
+   		<input type="text" name="numero" class="v" size="40" maxlength="16">
+   		<br><br>	
+   		<select name="bandeira" class="w" style="width: 313px">
+   			<option>--</option>
+   			<option>Visa</option>
+   			<option>MasterCard</option>
+   			<option>Elo</option>
+   			<option>American Express</option>
+   			<option>Hipercard</option>
+   			<option>Sorocred</option>
+   		</select>
+   		<p class="x">Validade</p>
+   		<input type="date" name="val" class="y" size="40" maxlength="8">
+   		<input type="Submit" name="cp" value="Confirmar Pedido" class="z"><img src="https://www.freeiconspng.com/uploads/check-mark-png-black-transparent-18.png" class="aa">
+   </div>
+</form>
+</body>
+</html>
